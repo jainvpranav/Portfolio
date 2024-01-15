@@ -378,10 +378,12 @@ body {
     .experiencecard {
         margin: 10px 0;
         min-width: 60vw;
+        min-height: 45vh;
+        max-height: 45vh;
     }
     .expimgdiv {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .experienceimg {
         width: 30vw;
