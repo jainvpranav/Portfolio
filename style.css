@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Chelsea+Market&family=Comic+Neue&family=Fira+Code&family=Montserrat&family=Mouse+Memoirs&family=Pixelify+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.01px;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow: scroll;
+    font-family: 'Pixelify Sans', 'Poppins', sans-serif;
+}
+
+/* NAVBAR  */
+.navbar {
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    overflow-y: hidden;
+    pointer-events: auto;
+    max-width: 95vw;
+    margin: 2vh auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 1.5em;
+    height: 1.5em;
+    display: none;
+    z-index: 2;
+}
+
+.navbar2 {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar2 ul {
+    margin: auto;
+    max-width: 97vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.navbar2 ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* CONTAINER  */
+.container {
+    margin: auto;
+    max-width: 98vw;
+    min-height: 75vh;
+    padding: 10px;
+    font-family: 'Pixelify Sans', 'Poppins', sans-serif;
+}
+
+/* HOME */
+.home {
+    display: flex;
+    height: 70vh !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: 1px solid black; */
+}
+
+.name {
+    font-size: 10rem;
+    color: black;
+    /* background-color: black; */
+    /* padding: 15px; */
+    /* border: 1px solid black; */
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    width: 5rem;
+    height: 5rem;
+    background: none;
+}
+
+.contact img:hover {
+    transform: scale(1.5);
+}
+
+/* ABOUT */
+.about {
+    background-color: black;
+    margin: auto;
+    width: 75vw;
+    padding: 15px;
+    color: white;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+    text-align: justify;
+    border-radius: 2vw;
+}
+
+.about_border {
+    border: 1px solid white;
+    border-radius: 2vw;
+    padding: 15px;
+}
+
+/* PROJECT */
+.projects {
+    margin: auto;
+    width: 75vw;
+    padding: 12px;
+}
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.projectmaincontainer {
+    background-color: black;
+    max-height: 90vh;
+    overflow: scroll;
+    border-radius: 2vw;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    flex: 1;
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+.card {
+    max-height: 55vh;
+    min-height: 55vh;
+    max-width: 20vw;
+    min-width: 20vw;
+    border: 1px solid white;
+    border-radius: 2vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1vh;
+    overflow: auto;
+    flex: 1;
+    cursor: pointer;
+}
+
+.projectname {
+    /* border: 1px solid white; */
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.projectimg {
+    /* border: 1px solid white; */
+    width: 18vw;
+    height: auto;
+    margin: auto;
+    border-radius: 2vw;
+    /* background-color: white; */
+}
+
+.projectdescription {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+/* EXPERIENCE */
+.experience {
+    margin: auto;
+    width: 75vw;
+    padding: 10px;
+}
+
+.experiencemaincontainer {
+    background-color: black;
+    border-radius: 2vw;
+    max-height: 70vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.experiencecard {
+    border: 1px solid white;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 65vh;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Montserrat','Fira Code', 'Poppins', sans-serif;
+    padding: 15px;
+    overflow: auto;
+}
+
+.expimgdiv {
+    width: 15vw;
+    height: 15vw;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceimg {
+    width: 15vw;
+    height: auto;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 12px;
+}
+.experiencerole {
+    margin: 2vh 0;
+}
+.experiencecompany {
+    margin: 1vh 0;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+.experienceduration {
+    margin: 1vh 0;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+.experiencedescription {
+    margin: 2vh 0;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+
+
+/* ACHIEVEMENTS */
+.awards {
+    margin: auto;
+    width: 75vw;
+    padding: 10px;
+}
+
+.awardsmaincontainer {
+    background-color: black;
+    min-height: 10vh;
+    border-radius: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .name {
+        font-size: 7rem;
+    }
+
+    .contact img {
+        width: 3rem;
+        height: 3rem;
+        background: none;
+    }
+
+    .navbar2 {
+        display: none;
+    }
+
+    .home {
+        height: 60vh !important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .name {
+        font-size: 4.5rem;
+    }
+
+    .contact img {
+        width: 3rem;
+        height: 3rem;
+        background: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar1 {
+        display: none;
+    }
+
+    .home {
+        height: 55vh !important;
+        /* transform: translate(0,10%); */
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+
+    .card {
+        min-width: 50vw;
+        min-height: 35vh;
+        /* justify-content: space-evenly; */
+    }
+
+    .projectname {
+        letter-spacing: normal;
+    }
+
+    .experiencecard {
+        margin: 10px 0;
+        min-width: 60vw;
+    }
+    .expimgdiv {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .experienceimg {
+        width: 30vw;
+    }
+    .experiencerole {
+        margin: 5vh 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .contact img {
+        width: 2rem;
+        height: 2rem;
+        background: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar1 {
+        display: none;
+    }
+}
