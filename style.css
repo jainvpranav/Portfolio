@@ -252,7 +252,7 @@ body {
     min-height: 65vh;
     border-radius: 2vw;
     color: white;
-    font-family: 'Montserrat','Fira Code', 'Poppins', sans-serif;
+    font-family: 'Montserrat', 'Fira Code', 'Poppins', sans-serif;
     padding: 15px;
     overflow: auto;
 }
@@ -274,17 +274,21 @@ body {
     position: relative;
     border-radius: 12px;
 }
+
 .experiencerole {
     margin: 2vh 0;
 }
+
 .experiencecompany {
     margin: 1vh 0;
     font-family: 'Fira Code', 'Poppins', sans-serif;
 }
+
 .experienceduration {
     margin: 1vh 0;
     font-family: 'Fira Code', 'Poppins', sans-serif;
 }
+
 .experiencedescription {
     margin: 2vh 0;
     line-height: 1.5rem;
@@ -320,49 +324,45 @@ body {
 }
 
 .sofa {
-    width:  25vw;
+    width: 25vw;
     height: auto;
     /* border: 1px solid black; */
 }
+
 .floor-lamp {
-    height: 40vh ;
-    width: auto ;
+    height: 40vh;
+    width: auto;
 }
-.hackathontext {
-    position: absolute;
-    transform: translate(33%, 80%);
-    text-align: center;
-    /* border: 1px solid black; */
-    width: 9vw !important;
-    height: auto;
-    font-family: 'Poppins';
-    font-size: 1.5rem;
-}
+
 .medal1 {
     position: absolute;
     width: 5vw !important;
     height: auto;
     transform: translate(35%, 100%);
 }
+
 .medal2 {
     position: absolute;
     width: 5vw !important;
     height: auto;
     transform: translate(85%, 100%);
 }
+
 .medal3 {
     position: absolute;
     width: 5vw !important;
     height: auto;
     transform: translate(135%, 100%);
 }
+
 .medal4 {
     position: absolute;
     width: 5vw !important;
     height: auto;
     transform: translate(185%, 100%);
 }
-.paperpresentationaward{
+
+.paperpresentationaward {
     position: absolute;
     width: 8vw !important;
     height: auto;
@@ -375,6 +375,146 @@ body {
     height: auto;
     transform: translate(45%, 50%);
 }
+
+.medal1:hover {
+    animation: jiggle 1s linear infinite;
+}
+
+.medal2:hover {
+    animation: jiggle 1s linear infinite;
+}
+
+.medal3:hover {
+    animation: jiggle 1s linear infinite;
+}
+
+.medal4:hover {
+    animation: jiggle 1s linear infinite;
+}
+
+.paperpresentationaward:hover {
+    animation: jiggle 1.8s infinite;
+}
+
+.awardacademic:hover {
+    animation: jiggle 1.8s infinite;
+}
+
+@keyframes jiggle {
+
+    0%,
+    100% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 5deg;
+    }
+
+    75% {
+        rotate: -5deg;
+    }
+}
+
+.projectextracontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 125%);
+    max-width: 55vw;
+    min-width: 55vw;
+    min-height: 80vh;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 12px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+}
+
+.projectextraclose {
+    width: 2vw;
+    height: auto;
+    position: absolute;
+    top: 3vh;
+    right: 2vw;
+    cursor: pointer;
+}
+
+.projectextraimg img {
+    min-width: 20vw;
+    height: auto;
+    max-width: 20vw;
+    /* max-height: 40vh; */
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 2vw;
+}
+
+.textdata {
+    min-width: 20vw;
+    min-height: 70vh;
+    padding: 12px;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectextraname {
+    /* border: 1px solid white; */
+    text-align: center;
+    min-width: 18vw;
+}
+
+.projectextradescription {
+    /* border: 1px solid white; */
+    text-align: justify;
+    min-height: 20vh;
+    max-height: 30vh;
+    overflow: scroll;
+    min-width: 18vw;
+}
+
+.projectextralink {
+    /* border: 1px solid white; */
+    min-width: 18vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.projectextralink a {
+    /* text-decoration: none; */
+    color: whitesmoke;
+}
+
+.projectextralink a img {
+    width: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -400,13 +540,16 @@ body {
     .home {
         height: 60vh !important;
     }
+
     .floor-lamp {
-        height: 20vh ;
-        width: auto ;
+        height: 20vh;
+        width: auto;
     }
+
     .awardsmaincontainer {
         flex-direction: column;
     }
+
     .shelfs img {
         width: 30vw;
         height: auto;
@@ -419,55 +562,74 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .sofa {
-        width:  40vw;
+        width: 40vw;
         height: auto;
         /* border: 1px solid black; */
     }
+
     .floor-lamp {
-        height: 20vh ;
-        width: auto ;
+        height: 20vh;
+        width: auto;
     }
+
     .hackathontext {
         font-size: 0.66rem;
-        transform: translate(68%,80%)
+        transform: translate(68%, 80%)
     }
+
     .medal1 {
         position: absolute;
         width: 10vw !important;
         height: auto;
         transform: translate(35%, 100%);
     }
+
     .medal2 {
         position: absolute;
         width: 10vw !important;
         height: auto;
         transform: translate(85%, 100%);
     }
+
     .medal3 {
         position: absolute;
         width: 10vw !important;
         height: auto;
         transform: translate(135%, 100%);
     }
+
     .medal4 {
         position: absolute;
         width: 10vw !important;
         height: auto;
         transform: translate(185%, 100%);
     }
-    .paperpresentationaward{
+
+    .paperpresentationaward {
         position: absolute;
         width: 16vw !important;
         height: auto;
         transform: translate(45%, 80%);
     }
-    .awardacademic{
+
+    .awardacademic {
         position: absolute;
         width: 16vw !important;
         height: auto;
         transform: translate(45%, 50%);
+    }
+
+    .projectextracontainer {
+        flex-direction: column;
+        transform: translate(-50%, 115%);
+    }
+
+    .projectextraclose {
+        width: 3vw;
+        height: auto;
+        position: absolute;
     }
 
 }
@@ -518,15 +680,23 @@ body {
         min-height: 45vh;
         max-height: 45vh;
     }
+
     .expimgdiv {
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
+
     .experienceimg {
         width: 30vw;
     }
+
     .experiencerole {
         margin: 5vh 0;
+    }
+
+    .projectextracontainer {
+        flex-direction: column;
+        transform: translate(-50%, 185%);
     }
 }
 
@@ -548,5 +718,10 @@ body {
 
     .navbar1 {
         display: none;
+    }
+
+    .projectextracontainer {
+        flex-direction: column;
+        transform: translate(-50%, 200%);
     }
 }
