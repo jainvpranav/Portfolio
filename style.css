@@ -224,79 +224,7 @@ body {
     /* border: 1px solid white; */
 }
 
-/* EXPERIENCE */
-.experience {
-    margin: auto;
-    width: 75vw;
-    padding: 10px;
-}
-
-.experiencemaincontainer {
-    background-color: black;
-    border-radius: 2vw;
-    max-height: 70vh;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    overflow-x: auto;
-    gap: 20px;
-}
-
-.experiencecard {
-    border: 1px solid white;
-    min-width: 35vw;
-    max-width: 35vw;
-    min-height: 65vh;
-    border-radius: 2vw;
-    color: white;
-    font-family: 'Montserrat', 'Fira Code', 'Poppins', sans-serif;
-    padding: 15px;
-    overflow: auto;
-}
-
-.expimgdiv {
-    width: 15vw;
-    height: 15vw;
-    /* border: 1px solid white; */
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.experienceimg {
-    width: 15vw;
-    height: auto;
-    background: whitesmoke;
-    position: relative;
-    border-radius: 12px;
-}
-
-.experiencerole {
-    margin: 2vh 0;
-}
-
-.experiencecompany {
-    margin: 1vh 0;
-    font-family: 'Fira Code', 'Poppins', sans-serif;
-}
-
-.experienceduration {
-    margin: 1vh 0;
-    font-family: 'Fira Code', 'Poppins', sans-serif;
-}
-
-.experiencedescription {
-    margin: 2vh 0;
-    line-height: 1.5rem;
-    text-align: justify;
-    font-family: 'Fira Code', 'Poppins', sans-serif;
-}
-
-/* Project Extra */
+/* PROJECT EXTRA CONTAINER */
 
 .projectextracontainer {
     transform: translate(15%, 2%);
@@ -375,6 +303,96 @@ body {
 .projectextralink a img {
     width: 2vw;
     height: auto;
+}
+
+
+/* EXPERIENCE */
+.experience {
+    margin: auto;
+    width: 75vw;
+    padding: 10px;
+}
+
+.experiencemaincontainer {
+    background-color: black;
+    border-radius: 2vw;
+    max-height: 70vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.experiencecard {
+    border: 1px solid white;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 65vh;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Montserrat', 'Fira Code', 'Poppins', sans-serif;
+    padding: 15px;
+    overflow: auto;
+}
+
+.expimgdiv {
+    width: 15vw;
+    height: 15vw;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceimg {
+    width: 15vw;
+    height: auto;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 12px;
+}
+
+.experiencerole {
+    margin: 2vh 0;
+}
+
+.experiencecompany {
+    margin: 1vh 0;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+
+.experienceduration {
+    margin: 1vh 0;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+
+.experiencedescription {
+    margin: 2vh 0;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: 'Fira Code', 'Poppins', sans-serif;
+}
+
+/* EXPERIENCE EXTRA CONTAINER */
+.expextracontainer {
+    transform: translate(15%, 2%);
+    max-width: 55vw;
+    min-width: 55vw;
+    min-height: 80vh;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 12px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
 }
 
 /* ACHIEVEMENTS */
