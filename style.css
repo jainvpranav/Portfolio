@@ -696,7 +696,7 @@ body {
 
     .projectextracontainer {
         flex-direction: column;
-        transform: translate(-50%, 185%);
+        transform: translate(-50%, 130%);
     }
 }
 
