@@ -108,7 +108,7 @@ const projectextralink = document.getElementById("projectextralink");
 const textdata = document.getElementById("textdata");
 
 function projectextracontainerbuild(index) {
-
+    
     let projectextraimgele = document.createElement("img");
     projectextraimgele.src = `${projectimg[index]}`;
     projectextraimgele.alt = `${projectname[index]}`;
