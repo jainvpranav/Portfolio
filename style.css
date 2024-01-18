@@ -296,6 +296,86 @@ body {
     font-family: 'Fira Code', 'Poppins', sans-serif;
 }
 
+/* Project Extra */
+
+.projectextracontainer {
+    transform: translate(15%, 2%);
+    max-width: 55vw;
+    min-width: 55vw;
+    min-height: 80vh;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    border-radius: 2vw;
+    padding: 12px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+}
+
+.projectextraclose {
+    width: 2vw;
+    height: auto;
+    position: absolute;
+    top: 3vh;
+    right: 2vw;
+    cursor: pointer;
+}
+
+.projectextraimg img {
+    min-width: 20vw;
+    height: auto;
+    max-width: 20vw;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 2vw;
+}
+
+.textdata {
+    min-width: 20vw;
+    min-height: 70vh;
+    padding: 12px;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectextraname {
+    /* border: 1px solid white; */
+    text-align: center;
+    min-width: 18vw;
+}
+
+.projectextradescription {
+    /* border: 1px solid white; */
+    text-align: justify;
+    min-height: 20vh;
+    max-height: 30vh;
+    overflow: scroll;
+    min-width: 18vw;
+}
+
+.projectextralink {
+    /* border: 1px solid white; */
+    min-width: 18vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.projectextralink a {
+    /* text-decoration: none; */
+    color: whitesmoke;
+}
+
+.projectextralink a img {
+    width: 2vw;
+    height: auto;
+}
 
 /* ACHIEVEMENTS */
 .awards {
@@ -416,88 +496,6 @@ body {
     }
 }
 
-.projectextracontainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 125%);
-    max-width: 55vw;
-    min-width: 55vw;
-    min-height: 80vh;
-    border: 5px solid whitesmoke;
-    background-color: black;
-    border-radius: 2vw;
-    padding: 12px;
-    display: none;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-}
-
-.projectextraclose {
-    width: 2vw;
-    height: auto;
-    position: absolute;
-    top: 3vh;
-    right: 2vw;
-    cursor: pointer;
-}
-
-.projectextraimg img {
-    min-width: 20vw;
-    height: auto;
-    max-width: 20vw;
-    /* max-height: 40vh; */
-    background-color: whitesmoke;
-    padding: 12px;
-    border-radius: 2vw;
-}
-
-.textdata {
-    min-width: 20vw;
-    min-height: 70vh;
-    padding: 12px;
-    border-radius: 2vw;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.projectextraname {
-    /* border: 1px solid white; */
-    text-align: center;
-    min-width: 18vw;
-}
-
-.projectextradescription {
-    /* border: 1px solid white; */
-    text-align: justify;
-    min-height: 20vh;
-    max-height: 30vh;
-    overflow: scroll;
-    min-width: 18vw;
-}
-
-.projectextralink {
-    /* border: 1px solid white; */
-    min-width: 18vw;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.projectextralink a {
-    /* text-decoration: none; */
-    color: whitesmoke;
-}
-
-.projectextralink a img {
-    width: 2vw;
-}
-
 
 
 
@@ -539,6 +537,20 @@ body {
 
     .home {
         height: 60vh !important;
+    }
+
+    .projectextracontainer {
+        flex-direction: column;
+    }
+
+    .projectextraclose {
+        width: 3vw;
+        height: auto;
+        position: absolute;
+    }
+    .projectextralink a img {
+        width: auto;
+        height: 4vh;
     }
 
     .floor-lamp {
@@ -620,18 +632,6 @@ body {
         height: auto;
         transform: translate(45%, 50%);
     }
-
-    .projectextracontainer {
-        flex-direction: column;
-        transform: translate(-50%, 115%);
-    }
-
-    .projectextraclose {
-        width: 3vw;
-        height: auto;
-        position: absolute;
-    }
-
 }
 
 @media screen and (max-width: 620px) {
@@ -670,6 +670,10 @@ body {
         /* justify-content: space-evenly; */
     }
 
+    .projectextracontainer {
+        transform: translate(10%, 2%);
+    }
+
     .projectname {
         letter-spacing: normal;
     }
@@ -693,11 +697,6 @@ body {
     .experiencerole {
         margin: 5vh 0;
     }
-
-    .projectextracontainer {
-        flex-direction: column;
-        transform: translate(-50%, 130%);
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -718,10 +717,5 @@ body {
 
     .navbar1 {
         display: none;
-    }
-
-    .projectextracontainer {
-        flex-direction: column;
-        transform: translate(-50%, 200%);
     }
 }
