@@ -13,7 +13,7 @@
 
 ::-webkit-scrollbar {
     width: 0.01px;
-}
+  }
 
 body {
     background-color: whitesmoke;
@@ -380,19 +380,38 @@ body {
 
 /* EXPERIENCE EXTRA CONTAINER */
 .expextracontainer {
-    transform: translate(15%, 2%);
-    max-width: 55vw;
-    min-width: 55vw;
-    min-height: 80vh;
-    border: 5px solid whitesmoke;
-    background-color: black;
-    border-radius: 2vw;
+    position: absolute;
+   width: 60vw;
+   height: 60vh;
+   border: 5px solid whitesmoke;
+   border-radius: 2vw;
+   padding: 12px;
+   background-color: black;
+   color: white;
+   transform: translate(7%, 4%);
+   overflow: auto;
+   display: none;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 2vw;
+   z-index: 3;
+}
+.expextraimg img{
+    display: block;
+    min-width: 20vw;
+    height: auto;
+    max-width: 20vw;
+    background-color: whitesmoke;
     padding: 12px;
-    display: none;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
+    border-radius: 2vw;
+    z-index: 2;
+}
+
+.exptextdata {
+    margin: auto 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
 }
 
 /* ACHIEVEMENTS */
@@ -700,7 +719,7 @@ body {
         margin: 10px 0;
         min-width: 60vw;
         min-height: 45vh;
-        max-height: 45vh;
+        max-height: 60vh;
     }
 
     .expimgdiv {
@@ -714,6 +733,15 @@ body {
 
     .experiencerole {
         margin: 5vh 0;
+    }
+
+    .expextracontainer {
+        flex-direction: column;
+        transform: translate(5%, 5%);
+    }
+
+    .expextraimg img{
+        transform: translateY(10vh);
     }
 }
 
@@ -735,5 +763,13 @@ body {
 
     .navbar1 {
         display: none;
+    }
+}
+@media screen and (max-width: 330px) {
+    .expextraimg img  {
+        transform: translateY(12vh);
+    }
+    .exptextdata {
+        transform: translateY(12vh);
     }
 }
