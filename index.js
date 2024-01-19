@@ -23,7 +23,7 @@ let projectname = [
     'SHIFT',
     'ROCKVED',
     'PingWave',
-    'Akelebecar',
+    'AkelebeCar',
     'Todo',
     'RSM',
     'ISTE',
@@ -129,11 +129,9 @@ let projectlongdescription = [
         "⦾  Information flow: Streamlined delivery of crucial event notifications, ensuring everyone stay in the loop."
     ],
     [//MemoryLane
-        "Skills: HTML, CSS, JavaScript, Firebase",
         '⦿  A digital gallery for locking in the memories of our dear seniors'
     ],
     [//GreyTexts
-        "Skills: HTML, CSS, JavaScript, Firebase",
         '⦿  A small site for sending out Anonymous messages for fun'
     ]
 ];
@@ -157,6 +155,7 @@ for (var i = 0; i < projectname.length; i++) {
     let projectdescp = document.createElement("h3")
 
     card.className += "card";
+    card.setAttribute("id", `${projectname[i]}`);
     projectnameh1.className += "projectname";
     projectimgimg.className += "projectimg";
     projectdescp.className += "projectdescription"
@@ -341,7 +340,7 @@ function expextracontainerbuild(index) {
     expextraimgele.src = `${expimg[index]}`;
     expextraimgele.alt = `${expcompany[index]}`;
     expextraimg.append(expextraimgele);
-    
+
     let expextrah1 = document.createElement("h1");
     expextrah1.innerHTML = `${exprole[index]}`;
     let expextrah3 = document.createElement("h3");
@@ -355,7 +354,7 @@ function expextracontainerbuild(index) {
     exptextdata.append(expextrah1);
     exptextdata.append(expextrah3);
     exptextdata.append(expdescul);
-    
+
 
     expextracontainer.append(expextraimg);
     expextracontainer.append(exptextdata);
@@ -368,3 +367,46 @@ const closeexpextracontainer = () => {
 
 
 //Awards
+const hackathon = document.getElementById("hackathon");
+const hackathonextracontainer = document.getElementById("hackathonextracontainer");
+
+hackathon.addEventListener("click", () => {
+    hackathonextracontainer.style.display = "block";
+})
+
+const closehackathonextracontainer = () => {
+    hackathonextracontainer.style.display = "none";
+}
+
+const paperpresentation = document.getElementById("paperpresentation");
+const paperextracontainer = document.getElementById("paperextracontainer");
+
+paperpresentation.addEventListener("click", () => {
+    paperextracontainer.style.display = "block";
+})
+
+const closeppextracontainer = () => {
+    paperextracontainer.style.display = "none";
+}
+
+const academicexcellence = document.getElementById("academicexcellence");
+const academicextracontainer = document.getElementById("academicextracontainer");
+
+academicexcellence.addEventListener("click", () => {
+    academicextracontainer.style.display = "block";
+})
+
+const closeacademicextracontainer = () => {
+    academicextracontainer.style.display = "none";
+}
+
+const coding = document.getElementById("coding");
+const codingextracontainer = document.getElementById("codingextracontainer");
+
+coding.addEventListener("click", () => {
+    codingextracontainer.style.display = "block";
+})
+
+const closecodingextracontainer = () => {
+    codingextracontainer.style.display = "none";
+}
