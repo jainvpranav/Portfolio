@@ -137,7 +137,7 @@ let projectlongdescription = [
 ];
 let projectlink = [
     'https://github.com/jainvpranav/SHIFT',
-    'https://crewrockved.netlify.app/index1.html',
+    'https://crewrockved.netlify.app/',
     'https://pingwave.netlify.app/',
     'https://github.com/jainvpranav/Akele-beCar',
     'https://todoapp232.netlify.app/',
