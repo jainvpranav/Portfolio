@@ -129,9 +129,11 @@ let projectlongdescription = [
         "⦾  Information flow: Streamlined delivery of crucial event notifications, ensuring everyone stay in the loop."
     ],
     [//MemoryLane
+        "Skills: HTML, CSS, JavaScript, Firebase",
         '⦿  A digital gallery for locking in the memories of our dear seniors'
     ],
     [//GreyTexts
+        "Skills: HTML, CSS, JavaScript, Firebase",
         '⦿  A small site for sending out Anonymous messages for fun'
     ]
 ];
