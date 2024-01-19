@@ -132,6 +132,35 @@ body {
     transform: scale(1.5);
 }
 
+.downloadresume {
+    background-color: black;
+    border-radius: 2vw;
+    border: 2px solid white;
+    padding: 20px;
+    max-width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadresume img {
+    width: 30px;
+    height: auto;
+}
+
+.downloadresume a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.downloadresume:hover {
+    transform: scale(1.5);
+}
+
 /* ABOUT */
 .about {
     background-color: black;
@@ -843,6 +872,15 @@ body {
     .navbar1 {
         display: none;
     }
+
+    .downloadresume img {
+        width: 25px;
+    }
+
+    .downloadresume a {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 330px) {
