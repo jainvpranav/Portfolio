@@ -1,3 +1,14 @@
+setTimeout(() => {
+    let loaderdiv = document.getElementById("loaderdiv");
+    let container = document.getElementById("container");
+    let body = document.querySelector("body");
+    let navbar1 = document.getElementById("navbar1");
+    body.style.backgroundColor = "whitesmoke";
+    container.style.display = "block";
+    navbar1.style.display = "flex";
+    loaderdiv.style.display = "none";
+}, 5000);
+
 
 // Navbar
 const navabr2 = document.getElementsByClassName("navbar2");
@@ -137,7 +148,7 @@ let projectlongdescription = [
 ];
 let projectlink = [
     'https://github.com/jainvpranav/SHIFT',
-    'https://crewrockved.netlify.app/',
+    'https://crewrockved.netlify.app/index1.html',
     'https://pingwave.netlify.app/',
     'https://github.com/jainvpranav/Akele-beCar',
     'https://todoapp232.netlify.app/',
