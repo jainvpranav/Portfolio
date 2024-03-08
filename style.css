@@ -735,24 +735,30 @@ body {
         position: absolute;
         width: 10vw !important;
         height: auto;
-        transform: translate(35%, 100%);
+        transform: translate(25%, 100%);
     }
 
     .medal2 {
         position: absolute;
         width: 10vw !important;
         height: auto;
-        transform: translate(85%, 100%);
+        transform: translate(65%, 100%);
     }
 
     .medal3 {
         position: absolute;
         width: 10vw !important;
         height: auto;
-        transform: translate(135%, 100%);
+        transform: translate(105%, 100%);
     }
 
     .medal4 {
+        position: absolute;
+        width: 10vw !important;
+        height: auto;
+        transform: translate(145%, 100%);
+    }
+    .medal5 {
         position: absolute;
         width: 10vw !important;
         height: auto;
