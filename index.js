@@ -31,6 +31,7 @@ hamburger.addEventListener("click", () => {
 
 // Projects
 let projectname = [
+    '&lt;CIDECODE/&gt;',
     'SHIFT',
     'ROCKVED',
     'PingWave',
@@ -42,6 +43,7 @@ let projectname = [
     'Grey Texts'
 ];
 let projectimg = [
+    './assets/projects/cryptocurrency.gif',
     './assets/projects/big-sale.gif',
     './assets/projects/rocket-launch.gif',
     './assets/projects/vulcan-salute.gif',
@@ -53,6 +55,7 @@ let projectimg = [
     './assets/projects/lock.gif'
 ];
 let projectdescription = [
+    'CryptoCurrency Traceability Tool',
     'Your AI Fashion Designer',
     'Wanna Learn Vedic Mathematics? Hop in',
     'Your custom secure chatroom🤫',
@@ -65,6 +68,13 @@ let projectdescription = [
 ];
 // ⦾ ⦿
 let projectlongdescription = [
+    [//CIDECODE
+        "Skills: HTML, CSS, JavaScript, Django, BlockchainInfo API, Crypto API",
+        "⦿  Developed a comprehensive cryptocurrency traceability tool within 24 hours, showcasing exceptional agility and problem-solving skills. This tool empowers users with four key analysis features: transaction, mixer, illicit transaction, and overall flow examination.",
+        "⦿  Integrated machine learning models trained on exchange attributes, mixers, and illicit transaction indicators using decision tree and KNN algorithms. This resulted in impressive accuracy rates: 86% for exchange attribute analysis and 96% for both illicit and mixer analysis, demonstrating the tool's effectiveness in identifying suspicious activity.",
+        "⦿  Utilized Blockchain.info and Crypto APIs to seamlessly integrate real-time data into the tool, ensuring users have access to the most up-to-date information for analysis.",
+        "The tool's streamlined interface provides users with a user-friendly platform to conduct various cryptocurrency analyses, facilitating efficient decision-making.",
+    ],
     [//Shift
         // '⦾  Your AI Fashion Designer',
         // '⦾  Prompt your design to tailor your clothes', 
@@ -147,6 +157,7 @@ let projectlongdescription = [
     ]
 ];
 let projectlink = [
+    'https://github.com/jainvpranav/CIDECODE_CREW',
     'https://github.com/jainvpranav/SHIFT',
     'https://crewrockved.netlify.app/index1.html',
     'https://pingwave.netlify.app/',
